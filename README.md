@@ -1,90 +1,17 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
-
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+# Multipage Website Template\n\nThis is a ready‑to‑use multipage static website template built with HTML, CSS and vanilla JavaScript.\nIt is intended for the final assignment: plan, build, and deploy a multipage responsive site.\n\n## Structure\n```
+Multipage_Website/
+├─ index.html
+├─ about.html
+├─ services.html
+├─ contact.html
+├─ css/
+│  └─ style.css
+├─ js/
+│  └─ main.js
+└─ README.md
+```
+\n## Features\n- Semantic HTML5 structure
+- Responsive layout (mobile-first)
+- Accessible navigation with keyboard support
+- Contact form with client-side validation (no backend)
+- Easy to deploy to GitHub Pages, Netlify, or Vercel\n\n## How to use\n1. Extract the zip and open `index.html` in a browser to preview locally.\n2. Edit the content, styles, and images in place.\n3. Deploy to GitHub Pages, Netlify or Vercel (instructions below).\n\n## Deploying to GitHub Pages\n1. Create a GitHub repository and push the project.\n2. In the repository settings -> Pages, set the source to `main` branch and `/ (root)`.\n3. Your site will be available at `https://<username>.github.io/<repo>/`.\n\n## Deploying to Netlify\n1. Drag & drop the site folder to Netlify's "Sites" panel or connect the repository.\n2. Netlify will automatically build and host the static site.\n\n## Deploying to Vercel\n1. Create a Vercel project and import the GitHub repository.\n2. Configure and deploy — Vercel auto-detects static sites.\n\n## Notes\n- This template is static; if you need a backend, consider adding a simple server or using serverless functions.\n- Remember to validate your HTML/CSS and test on multiple devices.
